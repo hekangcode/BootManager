@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_2D313A"
+    >
+
+    <TextView
+        android:id="@+id/tv_traffic_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/px160"
+        android:layout_marginTop="@dimen/px100"
+        android:includeFontPadding="false"
+        android:text="@string/com_can_manager_title"
+        android:textColor="@color/color_CCFFFFFF"
+        android:textSize="@dimen/fontsize_56"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/px360"
+        android:layout_marginEnd="@dimen/px360"
+        android:layout_marginTop="@dimen/px220"
+        >
+
+        <TextView
+            android:id="@+id/tv_no_boot_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/px300"
+            android:text="@string/com_can_manager_no_boot_app"
+            android:textColor="@color/color_CCFFFFFF"
+            android:textSize="@dimen/fontsize_35"
+            android:visibility="gone"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingBottom="@dimen/px100"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/iv_bottom_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px120"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/com_can_bootmanager_bottom_shadow"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

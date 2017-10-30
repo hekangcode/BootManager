@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item_app"
+    android:layout_width="@dimen/px1200"
+    android:layout_height="@dimen/px110"
+    >
+
+    <ImageView
+        android:id="@+id/iv_app_icon"
+        android:layout_width="@dimen/px72"
+        android:layout_height="@dimen/px72"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/px16"
+        android:layout_marginStart="@dimen/px32"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="@dimen/px400"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/iv_app_icon"
+        android:singleLine="true"
+        android:textColor="@color/color_CCFFFFFF"
+        android:textSize="@dimen/fontsize_34"
+        />
+
+    <ImageView
+        android:id="@+id/iv_boot_mode"
+        android:layout_width="@dimen/px140"
+        android:layout_height="@dimen/px56"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/px32"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="true"
+        />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/px32"
+        android:layout_marginStart="@dimen/px32"
+        android:background="@mipmap/com_can_bootmanager_line"
+        />
+</RelativeLayout>

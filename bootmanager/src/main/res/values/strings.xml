@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BootManager</string>
+    <string name="com_can_manager_title">自启动管理</string>
+    <string name="com_can_manager_open">开启</string>
+    <string name="com_can_manager_close">关闭</string>
+    <string name="com_can_manager_no_boot_app">暂无开机启动应用</string>
+    <string name="com_can_manager_no_root_permission">您未取得超级权限，无法禁止该应用</string>
+</resources>

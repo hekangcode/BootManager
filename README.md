@@ -1,2 +1,1 @@
-# BootManager
-一款实用Android平台上的应用开机启动项管理
+#BootManager
