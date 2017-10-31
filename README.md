@@ -10,5 +10,5 @@
 如果项目clone后无法运行，该问题是项目中包含一些私有库，需要的同学可以移步到com\can\bootmanager下的BootManagerActivity.java查看业务逻辑。
 
 ###效果图：
-
+![BootManager](https://github.com/hekangcode/BootManager/blob/master/bootmanager/src/main/res/drawable/bootmanager.png)
 
